@@ -65,8 +65,7 @@ document.querySelector('.js-scissors-button')
   });
   
  
-  // A helper function (it helps us reuse the
-  // code for hiding the confirmation message).
+  
   function hideResetConfirmation() {
     document.querySelector('.js-reset-confirmation')
       .innerHTML = '';
